@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta name="facebook-domain-verification" content="4gtb76gxqdkf7g646ncfg5p35yeb5e" />
+  
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Page Not Found</title>
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1"/>
+  <meta name="author" content="Mekar"/>
+  
+  
+  
+
+  
+  
+
+  <link rel="shortcut icon" href="https://stg-funding.s3-ap-southeast-1.amazonaws.com/static/images/favicon.ico"/>
+  
+  
+  
+    <link href="https://stg-funding.s3-ap-southeast-1.amazonaws.com/static/assets_v5/libs/bootstrap-4.0.0/css/bootstrap.min.css" rel="stylesheet">
+  	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet">
+  	<link href="https://stg-funding.s3-ap-southeast-1.amazonaws.com/static/assets_v5/libs/font-awesome-4.7.0/css/font-awesome.min.css" rel='stylesheet prefetch'>
+  	<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.0/css/bootstrap-slider.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stg-funding.s3-ap-southeast-1.amazonaws.com/static/CACHE/css/efa5fec73d1a.css" type="text/css" />
+  
+  <style>
+  .top-footer ol li, .top-footer  {
+    font-size: .7125rem;
+    font-weight: 400;
+    color: #999;
+  }
+  .top-footer h6{
+    color: #999;
+  }
+  .top-footer h2{
+    font-size: 1.25rem;
+  }
+  .top-footer h3{
+    font-size: 1rem;
+  }
+  #disclaimer {
+    padding-top: 1rem;
+    border-top: 2px solid #ebebeb;
+  }
+
+  .footer-contact #linkWhatsapp {
+    color: #999;
+    font-size : 11.4px;
+    font-weight : 400;
+  }
+
+  .footer-contact #linkWhatsapp:hover {
+    color: #4296fc;
+  }
+
+  </style>
+  
+
+  
+</head>
+<body>
+  
+
+
+
+  <!--  language settings -->
+  <div style="display: none">
+      <form class="left" id="lang_english" action="/i18n/setlang/"
+            method="post">
+          <input type='hidden' name='csrfmiddlewaretoken' value='UcF869EgBgBaA3hYJTElcOGSYO3WsrPN6I80EB9tvLHpH8gzFoZ7LUrQH9JElECn' />
+          
+              <input name="next" type="hidden"
+                     value="/api/47596/sign-lender-subscription/"/>
+          
+          <input name="language" type="hidden" value="en"/>
+          <input type="submit" value="English"/>
+      </form>
+
+      <form class="left" id="lang_id" action="/i18n/setlang/"
+            method="post">
+          <input type='hidden' name='csrfmiddlewaretoken' value='UcF869EgBgBaA3hYJTElcOGSYO3WsrPN6I80EB9tvLHpH8gzFoZ7LUrQH9JElECn' />
+          
+              <input name="next" type="hidden"
+                     value="/api/47596/sign-lender-subscription/"/>
+          
+          <input name="language" type="hidden" value="id"/>
+          <input type="submit" value="Indonesian"/>
+      </form>
+  </div>
+
+
+  
+<link href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css" rel="stylesheet">
+  <main role="main">
+    <nav class="navbar navbar-expand-md py-3 fixed-top bg-white navbar-light shadow">
+      <div class="container">
+        
+        <a class="navbar-brand" href="/en/">
+          <img alt="Mekar - PT Mekar Investama Sampoerna- Investasi Peer to Peer Aman, Mudah &amp; Memberi Keuntungan Lebih" class="img-logo" id="img_logo" src="https://stg-funding.s3-ap-southeast-1.amazonaws.com/static/assets_v5/img/mekar_logo_black.png">
+        </a>
+          
+            <img alt="" class="img-logo-partner" src="https://stg-funding.s3-ap-southeast-1.amazonaws.com/static/assets_v4/img/OJK-black-en-v3.png">
+          
+
+        <button class="navbar-toggler p-0 border-0" data-toggle="offcanvas" type="button">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        
+<div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+  <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+      <a class="px-3 nav-link text-dark" href="/en/microlending/investments/" rel="noopener noreferrer">Fund a Loan</a>
+    </li>
+    <li class="nav-item">
+        <a class="px-3 nav-link text-dark promo" href="/en/promotions/" rel="noopener noreferrer">Promotion</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="px-3 nav-link text-dark" href="/en/microlending/help-center/" rel="noopener noreferrer">Help Center</a>
+    </li>
+    <li class="nav-item">
+      
+          <a class="px-3 nav-link text-dark" href="https://blog.mekar.id/en/" rel="noopener noreferrer" target="_blank">Blog</a>
+      
+    </li>
+    <li class="nav-item">
+      
+      <a class="px-3 nav-link text-dark" href="/en/microlending/contact-us/" rel="noopener noreferrer">Contact Us</a>
+    </li>
+    
+      <li class="nav-item dropdown">
+        <a class="px-3 nav-link text-dark dropdown-toggle" href="#"
+          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Member
+        </a>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+
+          
+            <a href="/en/dashboard/" class="dropdown-item">
+              Dashboard
+            </a>
+            <div class="dropdown-divider"></div>
+            <a href="/en/messages/" class="dropdown-item">
+              Notifications
+              
+            </a>
+            <div class="dropdown-divider"></div>
+          
+
+    	    <a class="dropdown-item" href="/en/user/logout_home/">Logout</a>
+    	  </div>
+      </li>
+
+    
+
+    <li class="nav-item">
+      
+      <a class="click-language-id px-4 nav-link text-primary btn btn-outline-primary radius-10"
+        href="javascript:;">
+        Bahasa Indonesia
+      </a>
+      
+		</li>
+  </ul>
+</div>
+
+
+      </div>
+    </nav>
+  </main>
+
+
+  
+    <section class="investment">
+
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-12">
+
+                <h2 class="">Error: 404 Not Found</h2>
+                <div>
+                    <img src="https://stg-funding.s3-ap-southeast-1.amazonaws.com/static/images/new404.png">
+                    <div class="margin-top-40"></div>
+                    <p>
+                        Sorry the page you are looking not found<br/>
+                        Check the URL or <a href='/'>Go Home</a>
+                    </p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+  <section class="top-footer">
+		<div class="container">
+      
+      
+			<div class="logo-footer"><img alt="Mekar - PT Mekar Investama Sampoerna - Easy, Secure, and Highly Profitable Peer To Peer Investment" class="footer-logo" src="https://stg-funding.s3-ap-southeast-1.amazonaws.com/static/assets_v5/img/mekar_logo_black.png"></div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="row">
+						<div class="col-md-6">
+							<ul class="list-inline">
+								<li class="first-item">Mekar</li>
+								<li>
+                  
+									<a href="/en/microlending/about/">About Us</a>
+								</li>
+								<li>
+									<a href="/en/microlending/help-center/">Help Center</a>
+								</li>
+								<li>
+                  
+                      <a target="_blank" href="https://blog.mekar.id/en/">Blog</a>
+                  
+								</li>
+								<li>
+                  
+									<a href="/en/microlending/contact-us/">Contact Us</a>
+								</li>
+								<li>
+									<a href="/en/microlending/investments/">Fund a Loan</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-6">
+							<ul class="list-inline">
+								<li class="first-item">Legal</li>
+								<li>
+                  
+									<a href="/en/microlending/terms-and-conditions/">Terms and Conditions</a>
+								</li>
+								<li>
+                  
+									<a href="/en/microlending/privacy-policy/">Privacy Policy</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 partners-col text-center">
+				<h6>Registered and supervised by:</h6>
+        
+          <img alt="ojk logo" class="logo-partners" src="https://stg-funding.s3-ap-southeast-1.amazonaws.com/static/assets_v4/img/logo/OJK_Logo.png">
+        
+				<h6>Supported by:</h6><img alt="ojk logo" class="logo-partners" src="https://stg-funding.s3-ap-southeast-1.amazonaws.com/static/assets_v4/img/logo/PSF.png"></div>
+				<div class="col-md-4 contact-col">
+					<h6>Contact Us</h6>
+  					<p class="footer-contact">
+                Sampoerna Strategic Square,<br>South Tower, 21<sup>st</sup> floor,<br>Jalan Jendral Sudirman Kav. 45-46,<br>Karet Semanggi, Kecamatan Setiabudi,<br>Jakarta Selatan 12930
+                <br>
+                
+                    +6221 300 22735 (Call)<br><a id=linkWhatsapp href=https://wa.me/6287777399049 target=_blank>+62877 7739 9049 (Whatsapp)</a><br>Working hour Monday-Friday (09.00 - 17.00)
+                  
+            </p>
+					<h6>Connect with Us</h6>
+					<ul class="share list-inline">
+						<li>
+							<a href="https://www.facebook.com/mekarnetwork/"
+                rel="nofollow" target="_blank" class="fa fa-facebook fb">
+              </a>
+						</li>
+						<li>
+							<a href="https://twitter.com/mekar_id"
+                rel="nofollow" target="_blank" class="fa fa-twitter tw">
+              </a>
+						</li>
+						<li>
+							<a href=" https://www.linkedin.com/company/mekar"
+                rel="nofollow" target="_blank" class="fa fa-linkedin lk">
+              </a>
+						</li>
+						<li>
+							<a href="https://www.youtube.com/channel/UCD-6B35G_Ra8tUa7E09N4mw" rel="nofollow" target="_blank" class="fa fa-youtube-play yt"></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+  <footer class="text-muted top-footer">
+    <div class="container">
+      <article id="disclaimer">
+
+
+        
+<h2>DISCLAIMERS:</h2>
+<ol style="margin-left:-30px">
+  <li>Information Technology-Based Lending Service is a civil agreement between the Funder and the Lender. Therefore all risks incurred from the agreement shall be borne entirely by the respective parties.
+  </li>
+  <li>The credit risk or debt default shall be borne entirely by the Funder. No government body or authority will take responsibility for this default risk.
+  </li>
+  <li>The Organizer, under the consent of the respective users (the Funder and/or the Lender), accesses, gains, keeps, manages and/or uses the Users’ personal data (“Data Usage”) on or in the objects, electronic devices (including smartphones or cellphones), hardware or software, electronic documents, applications or electronic systems owned by or under the control of the Users, by informing the objective, boundaries and mechanism of the aforementioned Data Usage to the related Users before making the said agreement.
+  </li>
+  <li>The Funder with no knowledge and experience concerning lending is advised not to use this service.
+  </li>
+  <li>The Lender must take into account the interest rate of the loan and other costs incurred corresponding to his/her ability in repaying the loan.
+  </li>
+  <li>Every fraudulence will be recorded digitally in the cyberspace and will be accessible to the general public through social media.
+  </li>
+  <li>The User must read and fully understand this information before deciding to become a Funder or Lender.
+  </li>
+  <li>The Government, in this case represented by the Indonesian Financial Services Authority (OJK), shall not be held accountable of every violation or disobedience committed by the Funder or the Lender (whether it is intended or due to the User’s negligence) against the regulations, the agreement or the bond between the Organizer and the Funder and/or the Lender.
+  </li>
+  <li>Every lending transaction and activity or the agreement implementation concerning lending between or those involving the Organizer, the Funder and/or the Lender must be carried out through an escrow account and a virtual account as regulated in the Financial Authority Services Regulation No. 77/POJK.01/2016 on Information Technology-Based Lending Service, and any violation and disobedience of the regulation shall be considered as evidence of a violation of law committed by the Organizer. Therefore, the Organizer must bear any liability suffered by the Users as a direct result of the violation of law as mentioned above without reducing the rights of the Users that have suffered losses as stipulated in the Indonesian Civil Law.
+  </li>
+</ol>
+
+
+      </article>
+    </div>
+		<div class="container text-center">
+			<p>© 2023 PT Mekar Investama Sampoerna. All Rights Reserved.</p>
+		</div>
+	</footer>
+  <div id="funderPortalMessage" style="display:none;">
+      <h6>We are processing your request.  Please be patient.</h6>
+  </div>
+  
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'>
+  	</script> <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js">
+  	</script>
+  	<script src="https://stg-funding.s3-ap-southeast-1.amazonaws.com/static/assets_v5/libs/bootstrap-4.0.0/js/bootstrap.min.js">
+  	</script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js" integrity="sha384-tSi+YsgNwyohDGfW/VhY51IK3RKAPYDcj1sNXJ16oRAyDP++K0NCzSCUW78EMFmf" crossorigin="anonymous"></script>
+    <script src="https://stg-funding.s3-ap-southeast-1.amazonaws.com/static/assets_v4/js/readmore.min.js">
+    </script>
+
+    <script type="text/javascript">
+    $('#footer_seo').readmore({
+        collapsedHeight: 216,
+        speed: 300
+    });
+
+    $("#readmore_footer").click(function () {
+        $("#readmore_collapse").slideToggle("slow", function () {
+            if ($("#readmore_collapse").is(":hidden")) {
+                $("a#readmore_footer").html('Read more...');
+            } else {
+                $("a#readmore_footer").html('Closed');
+            }
+        });
+    });
+    storeToCookies();
+      function storeToCookies() {
+        var utmparam = window.location.search.substring(1);
+        var http_referrer = '';
+        var date = new Date();
+        var hour = 24;
+        date.setTime(date.getTime() + (hour * 60 * 60 * 1000));
+        $.cookie("httpreferrer", http_referrer, { expires: date, path: '/', secure: true });
+        if (utmparam) {
+          $.cookie("utmparam", utmparam, { expires: date, path: '/', secure: true });
+        }
+      }
+      if(window.location.pathname == "/international/" || window.location.pathname == "/en/international/"){
+        $("#img-logo-ojk-foreign").attr('src','https://stg-funding.s3-ap-southeast-1.amazonaws.com/static/images/ojk-foreign-2.png');
+        $("#hide-small-ojk").attr('src','https://stg-funding.s3-ap-southeast-1.amazonaws.com/static/images/ojk-foreign-white-2.png');
+      }
+
+      $( ".click-language-id" ).click(function() {
+        $("#lang_id").submit();
+      });
+      $( ".click-language-en" ).click(function() {
+        $("#lang_english").submit();
+      });
+
+    </script>
+
+    
+    
+    <script>
+        var csrftoken = 'UcF869EgBgBaA3hYJTElcOGSYO3WsrPN6I80EB9tvLHpH8gzFoZ7LUrQH9JElECn';
+        var url = '';
+        var staticPlaceholder = 'https://stg-funding.s3-ap-southeast-1.amazonaws.com/static/images/placeholder/placeholder_partner.svg';
+    </script>
+    <script>
+      <!--
+        $(function() {
+          'use strict'
+          $('[data-toggle="offcanvas"]').on('click', function() {
+            $('.offcanvas-collapse').toggleClass('open');
+          });
+        });
+        -->
+  	</script>
+    
+  
+
+</body>
+</html>

@@ -1,0 +1,168 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Jun 15 09:43:24 ICT 2023","Thu Jun 15 09:43:57 ICT 2023","32187","","Lender-Subscription-FP","","","","[TC-2] Login dengan user belum Verified **INDIVIDUAL**","
+    Melakukan login dengan user yang masih menunggu proses KYC untuk diverifikasi.
+    (expect: tidak akan menampilkan popup agreement)
+
+    **Kondisi saat ini:**
+    Melakukan registrasi lender individual melalui mekar.id
+
+    Langkah-langkah ini meliputi ...
+"
+"passed","Thu Jun 15 09:44:13 ICT 2023","Thu Jun 15 09:44:32 ICT 2023","18960","","Lender-Subscription-FP","","","","[TC-4] Login dengan user belum melengkapi data **INDIVIDUAL**","
+    Melakukan login dengan user yang belum melengkapi data sama sekali.
+    (expect: tidak akan menampilkan popup agreement)
+    
+    Langkah-langkah ini meliputi ...
+"
+"passed","Thu Jun 15 09:50:31 ICT 2023","Thu Jun 15 09:50:55 ICT 2023","23792","","Lender-Subscription-FP","","","","[TC-15] Login dengan user hanya melengkapi bank_account **INSTITUSIONAL**","
+    Melakukan login dengan user yang hanya melengkapi data bank_account.
+    (expect: tidak akan menampilkan popup agreement)
+    Langkah-langkah ini meliputi ...
+"
+"passed","Thu Jun 15 09:53:06 ICT 2023","Thu Jun 15 10:16:21 ICT 2023","1395372","","Lender-Subscription-FP","","","","[TC-20] Login dengan semua user partner **PARTNER**","
+    Melakukan login dengan user partner.
+    (memastikan user partner tidak mendapatkan tanda tangan perjanjian)
+    Langkah-langkah ini meliputi ...
+"
+"broken","Thu Jun 15 10:39:56 ICT 2023","Thu Jun 15 10:40:25 ICT 2023","28913","","Lender-Subscription-FP","","","","[TC-16] Login dengan user verified belum melengkapi bank_account **INSTITUSIONAL**","
+    Melakukan login dengan user yang sudah terverified tetapi belum melengkapi bank_account.
+    (**expect:** tidak akan muncul popup perjanjian pada user, karena belum melengkapi bank_account)
+    
+    **Kondisi saat ini:**
+    [Menu Pengguna] -> [Menu Bank Account].
+    
+    Langkah-langkah ini meliputi ...
+
+"
+"broken","Thu Jun 15 09:47:12 ICT 2023","Thu Jun 15 09:48:04 ICT 2023","51951","","Lender-Subscription-FP","","","","[TC-9] Login dengan user verified [Defect] **INSTITUSIONAL**","
+    Melakukan login dengan user yang sudah melengkapi data dan terverifikasi.
+    (expect: menampilkan popup agreement karena sudah verified dan credit scoring sudah terisi )
+
+    **Kondisi saat ini:**
+    [Menu Pengguna] -> [Menu User Profile] -> [Menu Bank Account].
+
+    **Defect**
+    [Popup agreement tidak muncul, pada user yang sudah melengkapi data dan verified.]
+    **Solusi**
+    [Pada saat lender register di meker.id, fullname / nama lengkap di insert ke database FP dan profile.db (lender_personalinfo).
+    atau pada saat mengisi [Menu Pengguna] insert ke profile.db(lender_personalinfo)
+
+    Langkah-langkah ini meliputi ...
+"
+"passed","Thu Jun 15 09:44:32 ICT 2023","Thu Jun 15 09:45:20 ICT 2023","47972","","Lender-Subscription-FP","","","","[TC-5] Login dengan user existing Verified **INDIVIDUAL**","
+    Melakukan login dengan user (lama) yang sudah verified.
+    (expect: menampilkan popup agreement karena sudah verified dan credit scoring sudah terisi)
+
+    **kondisi saat ini**
+    melakukan register lender individual dengan user existing
+
+    Langkah-langkah ini meliputi ...
+"
+"passed","Thu Jun 15 09:43:57 ICT 2023","Thu Jun 15 09:44:13 ICT 2023","16937","","Lender-Subscription-FP","","","","[TC-3] Login dengan user Rejected **INDIVIDUAL**","
+    Melakukan login dengan user rejected dengan KYC.
+    (expect: tidak akan menampilkan popup agreement)
+
+    **kondisi saat ini**
+    melakukan register lender individual melalui mekar.id
+
+    Langkah-langkah ini meliputi ...
+"
+"passed","Thu Jun 15 09:49:01 ICT 2023","Thu Jun 15 09:49:25 ICT 2023","23594","","Lender-Subscription-FP","","","","[TC-11] Login dengan user belum verified  **INSTITUSIONAL**","
+    Melakukan login dengan user yang sudah melengkapi data tetapi belum verified
+    (expect: tidak akan menampilkan popup agreement)
+    Langkah-langkah ini meliputi ...
+"
+"passed","Thu Jun 15 09:52:19 ICT 2023","Thu Jun 15 09:52:44 ICT 2023","24972","","Lender-Subscription-FP","","","","[TC-18] Login Kembali Dengan User Yang Sudah Tanda Tangan Perjanjian [1] **INSTITUSIONAL**","
+    Melakukan login dengan user yang sudah pernah melakukan tanda tangan perjanjian.
+
+    (expect : tidak akan menampilkan agreement)
+    Langkah-langkah ini meliputi ...
+
+"
+"passed","Thu Jun 15 09:46:14 ICT 2023","Thu Jun 15 09:46:44 ICT 2023","29357","","Lender-Subscription-FP","","","","[TC-7] Login Kembali Dengan User Yang Sudah Tanda Tangan Perjanjian **INDIVIDUAL**","
+    Melakukan login dengan user yang sudah pernah melakukan tanda tangan perjanjian.
+    (expect : sudah tidak menampilkan popup agreement)
+
+    **kondisi saat ini**
+    melakukan register lender individual melalui mekar.id
+
+    Langkah-langkah ini meliputi ...
+"
+"passed","Thu Jun 15 10:36:20 ICT 2023","Thu Jun 15 10:38:21 ICT 2023","120966","","Lender-Subscription-FP","","","","[TC-6] Login dengan user Verified **INDIVIDUAL**","
+    Melakukan login dengan user (baru) yang sudah Verified .
+    lakukan tanda tangan perjanjian sampai check box lalu logout dan kembali login 
+    dan melakukan tanda tangan perjanjian sampai selesai muncul popup close 
+
+    (expect: menampilkan popup agreement karena sudah verified dan credit scoring sudah terisi )
+
+    **kondisi saat ini**
+    melakukan register lender individual melalui mekar.id
+
+    Langkah-langkah ini meliputi ...
+"
+"passed","Thu Jun 15 09:49:43 ICT 2023","Thu Jun 15 09:50:04 ICT 2023","21756","","Lender-Subscription-FP","","","","[TC-13] Login dengan user belum melengkapi data **INSTITUSIONAL**","
+    Melakukan login dengan user yang belum melengkapi data sama sekali.
+    (expect: tidak akan menampilkan popup agreement)
+    Langkah-langkah ini meliputi ...
+"
+"passed","Thu Jun 15 09:42:27 ICT 2023","Thu Jun 15 09:43:24 ICT 2023","56954","","Lender-Subscription-FP","","","","[TC-1] Login dengan user verified **INDIVIDUAL**","
+    Melakukan login dengan user sudah terverifikasi sebagai INDIVIDUAL.
+    (expect: menampilkan popup agreement karena sudah verified dan credit scoring sudah terisi )
+
+    **kondisi saat ini**
+    melakukan register lender individual melalui mekar.id
+
+    Langkah-langkah ini meliputi ...
+"
+"passed","Thu Jun 15 10:44:36 ICT 2023","Thu Jun 15 10:45:36 ICT 2023","59345","","Lender-Subscription-FP","","","","[TC-17] Login dengan user Verified [insert_manual] **INSTITUSIONAL**","
+    Melakukan login dengan user yang sudah Verified.
+    lakukan tanda tangan perjanjian sampai check box lalu logout dan kembali login 
+    dan melakukan tanda tangan perjanjian sampai selesai muncul popup close 
+
+    (*expect : tetap menampilkan popup agreement ketika user sudah mengklik, tetapi belum sign)
+
+    **Kondisi saat ini:**
+    fullname di profile_db [lender_personalinfo] insert manual .
+
+    Langkah-langkah ini meliputi ...
+"
+"passed","Thu Jun 15 10:38:53 ICT 2023","Thu Jun 15 10:39:56 ICT 2023","62500","","Lender-Subscription-FP","","","","[TC-14] Login dengan user verified dan bank_account Notify to funder **INSTITUSIONAL**","
+    Melakukan login dengan user yang sudah melengkapi data dan bank_account Notify to funder .
+    (expect: menampilkan popup agreement karena sudah verified dan credit scoring sudah terisi )
+
+    [expect : popup sign agreement tampil.]
+    
+    **Kondisi saat ini:**
+    [Menu Pengguna] -> [Menu User Profile] -> [Menu Bank Account] -> profile.db[insert_manual].
+
+    Langkah-langkah ini meliputi ...
+"
+"passed","Thu Jun 15 10:38:21 ICT 2023","Thu Jun 15 10:38:53 ICT 2023","31975","","Lender-Subscription-FP","","","","[TC-8] Login Kembali Dengan User Yang Sudah Tanda Tangan Perjanjian **INDIVIDUAL**","
+    Melakukan login dengan user yang sudah pernah melakukan tanda tangan perjanjian.
+    (expect : sudah tidak menampilkan popup agreement)
+
+    **kondisi saat ini**
+    melakukan register lender individual melalui mekar.id
+
+    Langkah-langkah ini meliputi ...
+"
+"passed","Thu Jun 15 09:48:04 ICT 2023","Thu Jun 15 09:49:01 ICT 2023","56785","","Lender-Subscription-FP","","","","[TC-10] Login dengan user verified [Insert Fullname Manual]  **INSTITUSIONAL**","
+    Melakukan login dengan user yang sudah melengkapi data dan terverifikasi [sudah melengkapi fullname di lender_personalinfo (profile.db)].
+    (expect: menampilkan popup agreement karena sudah verified dan credit scoring sudah terisi )
+
+    **Kondisi saat ini:**
+    fullname di profile_db [lender_personalinfo] insert manual .
+
+    Langkah-langkah ini meliputi ...
+"
+"passed","Thu Jun 15 10:45:36 ICT 2023","Thu Jun 15 10:46:01 ICT 2023","25296","","Lender-Subscription-FP","","","","[TC-19] Login Kembali Dengan User Yang Sudah Tanda Tangan Perjanjian [2] **INSTITUSIONAL**","
+    Melakukan login dengan user yang sudah pernah melakukan tanda tangan perjanjian.
+    (expect : sudah tidak menampilkan popup agreement)
+
+    Langkah-langkah ini meliputi ...
+"
+"passed","Thu Jun 15 09:49:25 ICT 2023","Thu Jun 15 09:49:43 ICT 2023","18056","","Lender-Subscription-FP","","","","[TC-12] Login dengan user rejected  **INSTITUSIONAL**","
+    Melakukan login dengan user yang sudah melengkapi data tetapi di rejected.
+    (expect: tidak akan menampilkan popup agreement)
+    Langkah-langkah ini meliputi ...
+"
