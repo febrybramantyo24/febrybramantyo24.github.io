@@ -1,0 +1,69 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Jun 26 10:05:34 ICT 2023","Mon Jun 26 10:07:31 ICT 2023","116651","Testcase","LTIS-89","","","","[TC-2] Testing dengan lender existing [2]","
+    1. Melakukan login dengan user existing.
+    2. Cek Menu Profile Agreement -> Subscription Agreement
+    3. Cek Menu Profile Agreement -> Lender - Borrower Agreement
+    4. Cek Menu Profile Agreement -> Old Agreement
+
+    *** Kodisi saat ini ***
+    login dengan user id = 11 [tidak menemukan document agreement di bucket-renovation-test].
+
+    *** Skenario Result ***
+    1. Passed, Memberikan deskripsi [Failed Url] di test steps [Lender - Old Agreement].
+    2. Memberikan screenshot pages gagal menemukan url Agreement.
+    3. Memberikan lampiran database [inhouse-agreement],[funderportal] dan [profile_db]
+
+    Langkah-langkah ini meliputi ...
+"
+"passed","Mon Jun 26 10:08:18 ICT 2023","Mon Jun 26 10:09:01 ICT 2023","43837","Testcase","LTIS-89","","","","[TC-4] Testing dengan lender baru Institusional","
+    1. Melakukan login dengan user existing.
+    2. Cek Menu Profile Agreement -> Subscription Agreement
+    3. Cek Menu Profile Agreement -> Lender - Borrower Agreement
+    4. Cek Menu Profile Agreement -> Old Agreement
+
+    *** Kodisi saat ini ***
+    login dengan akun baru institusional 
+       
+     *** catatan ***
+    user baru belum memiliki old agreement, sehingga mendapatkan deskripsi [Agreement Element Not Found].
+    dan dilengkapi lampiran database agreement di FP (old_agreement)
+    
+    Langkah-langkah ini meliputi ...
+"
+"passed","Mon Jun 26 10:01:19 ICT 2023","Mon Jun 26 10:05:34 ICT 2023","255077","Testcase","LTIS-89","","","","[TC-1] Testing dengan lender existing [1]","
+    1. Melakukan login dengan user existing.
+    2. Cek Menu Profile Agreement -> Subscription Agreement
+    3. Cek Menu Profile Agreement -> Lender - Borrower Agreement
+    4. Cek Menu Profile Agreement -> Old Agreement
+
+    *** Kodisi saat ini ***
+    Menambahkan manual folder / file agreement di [bucket-renovation-test].
+
+    *** Skenario Result ***
+    1. Passed, berhasil download document agreement di url [bucket-renovation-test] 
+    2. Memberikan screenshot pages dan berhasil melampirkan url [bucket-renovation-test]
+    3. Memberikan lampiran database [inhouse-agreement],[funderportal] dan [profile_db]
+    
+
+    Langkah-langkah ini meliputi ...
+"
+"passed","Mon Jun 26 10:07:31 ICT 2023","Mon Jun 26 10:08:18 ICT 2023","47073","Testcase","LTIS-89","","","","[TC-3] Testing dengan lender baru Individual","
+    1. Melakukan login dengan user existing.
+    2. Cek Menu Profile Agreement -> Subscription Agreement
+    3. Cek Menu Profile Agreement -> Lender - Borrower Agreement
+    4. Cek Menu Profile Agreement -> Old Agreement
+
+    *** Kodisi saat ini ***
+    login dengan akun baru Individual.
+
+    *** Skenario Result ***
+    1. Passed, Memberikan deskripsi [Agreement Element Not Found] di test steps [Lender - Old Agreement].
+    2. Memberikan screenshot pages [Agreement Element Not Found].
+    3. Memberikan lampiran database [inhouse-agreement],[funderportal] dan [profile_db]
+
+    *** catatan ***
+    user baru belum memiliki old agreement, sehingga mendapatkan deskripsi [Agreement Element Not Found].
+    dan dilengkapi lampiran database agreement di FP (old_agreement)
+
+    Langkah-langkah ini meliputi ...
+"
