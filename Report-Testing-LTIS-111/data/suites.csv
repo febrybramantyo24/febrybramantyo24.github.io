@@ -1,0 +1,29 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Jun 26 21:02:54 ICT 2023","Mon Jun 26 21:06:33 ICT 2023","218734","Testcase","LTIS-111","","","","[TC-1] Testing dengan lender existing ","
+    1. Melakukan login dengan user existing.
+    2. Cek Menu Profile Agreement -> Subscription Agreement
+    3. Cek Menu Profile Agreement -> Lender - Borrower Agreement
+    4. Cek Menu Profile Agreement -> Old Agreement
+
+    Langkah-langkah ini meliputi ...
+"
+"passed","Mon Jun 26 21:07:27 ICT 2023","Mon Jun 26 21:08:12 ICT 2023","44266","Testcase","LTIS-111","","","","[TC-4] Testing dengan lender baru Institusional","
+    1. Melakukan login dengan user existing.
+    2. Cek Menu Profile Agreement -> Subscription Agreement
+    3. Cek Menu Profile Agreement -> Lender - Borrower Agreement
+    4. Cek Menu Profile Agreement -> Old Agreement
+    
+    Langkah-langkah ini meliputi ...
+"
+"passed","Mon Jun 26 21:06:33 ICT 2023","Mon Jun 26 21:07:27 ICT 2023","54611","Testcase","LTIS-111","","","","[TC-3] Testing dengan lender baru Individual","
+    1. Melakukan login dengan user existing.
+    2. Cek Menu Profile Agreement -> Subscription Agreement
+    3. Cek Menu Profile Agreement -> Lender - Borrower Agreement
+    4. Cek Menu Profile Agreement -> Old Agreement
+
+    *** Kodisi saat ini ***
+    login dengan akun baru Individual.
+
+
+    Langkah-langkah ini meliputi ...
+"
