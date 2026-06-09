@@ -1,4 +1,0 @@
-(pymysql.err.OperationalError) (2013, 'Lost connection to MySQL server during query ([WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond)')
-[SQL: SELECT id FROM users_user WHERE email = %(email)s]
-[parameters: {'email': 12999}]
-(Background on this error at: https://sqlalche.me/e/14/e3q8)
